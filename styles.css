@@ -430,16 +430,144 @@ a {
     .info span {
         margin: auto;
     }
-    nav {
-        position: absolute;
+    /* nav {
+        position: fixed;
         top: 0;
         z-index: 99999;
         width: 100%;
-    }
+    } */
     .hero-area {
         margin-top: 130px;
     }
     ul#nav-list {
-        background: #C79358;
+    background: #C79358;
+    width: 100%;
+    box-sizing: border-box;
+}
+    .javascript .info span {
+        font-size: 20px!important;
     }
 }
+
+
+/* 
+
+@media(max-width: 480px) {
+    nav {
+        width: 112%;
+    }
+
+    .hero-text h1 {
+        margin: 30px;
+        font-size: 70px;
+    }
+
+    .hero-text p {
+        font-size: 20px;
+    }
+
+    .sub-section .information h2 {
+        margin: 70px;
+        width: 100%;
+    }
+
+    .sub-section .information p {
+        margin: 20px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sub-section button {
+        width: 100px;
+        font-size: 15px;
+        margin-left: 125px;
+    }
+
+    .skill-section .languages h2 {
+        margin-left: 70px;
+    }
+
+    .sub-section-alternative h2 {
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .project-container .project-card {
+        margin-left: 100px;
+    }
+
+    #contact-me {
+        width: 85%;
+    }
+
+    #contact-me p {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 320px) {
+    nav {
+        width: 170%;
+    }
+
+    ul li {
+        font-size: 20px;
+    }
+
+    .hero-area {
+        height: auto;
+        margin-top: 70px;
+    }
+
+    .hero-text {
+        width: 100%;
+        margin-left: 130px;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text p {
+        width: 100%;
+        margin: 30px;
+    }
+
+    .social {
+        font-size: 30px;
+    }
+    
+    .sub-section .information h2 {
+        margin: 70px;
+        width: 150%;
+    }
+
+    .sub-section .information p {
+        margin: 30px;
+        width: 200%;
+    }
+
+    .skill-section .languages h2 {
+        margin-left: 100px;
+    }
+
+    .skills-bar {
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .sub-section-alternative h2 {
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    .project-container .project-card {
+        margin-left: 230px;
+    }
+
+    #contact-me {
+        width: 120%;
+    }
+    
+}
+  */
